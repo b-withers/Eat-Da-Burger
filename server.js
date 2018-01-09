@@ -5,7 +5,7 @@ var path = require("path");
 // Import routes and give the server access to them.
 var routes = require("./controllers/burgers_controller.js");
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 var app = express();
 
